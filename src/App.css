@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  display: flex;
+  padding: 20px;
 }
 
 .App-logo {
@@ -35,4 +37,28 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Text-header {
+  display: flex;
+  align-items: center;
+  padding: 7px;
+}
+
+.List-text {
+  max-width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-left: 10px;
+}
+
+.Header {
+  margin-left: 10px;
+}
+.Main-header {
+  padding: 7px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
 }
